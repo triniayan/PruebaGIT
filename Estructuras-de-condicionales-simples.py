@@ -1,8 +1,8 @@
 print("Estructura de-condicionales-simples")
 
 #1 Realice un programa que solicite dos letras ingresadas por el usuario y verifique si son iguales o no, mostrando un mensaje.
-letra1= input("Ingrese por favor una letra")
-letra2= input("Ingrese por favor otra letra")
+letra1= input("Introduzca por favor una letra")
+letra2= input("Introduzca por favor otra letra")
 
 if letra1 == letra2:
     print("Las dos letras son iguales")
@@ -11,8 +11,8 @@ else:
 
 #2 Hacer un programa que permita decidir si dos palabras son iguales o diferentes. Mostrar mensaje por pantalla.")
 
-palabra1= input("Ingrese por favor una palabra")
-palabra2= input("Ingrese por favor otra palabra para ser comparada")
+palabra1= input("Introduzca por favor una palabra")
+palabra2= input("Introduzca por favor otra palabra para ser comparada")
 
 if palabra1 == palabra2:
     print("Las dos palabras son iguales")
@@ -21,7 +21,7 @@ else:
 
 #3 Realizar un programa que permita ingresar “f” o “m” y determinar si vota en mesa femenina o masculina.
 
-genero= str(input("Ingrese f si es femenino:"))
+genero= str(input("Introduzca f si es femenino:"))
 
 if genero =="f":
     print("Usted vota en mesa femenina")
@@ -30,17 +30,17 @@ else:
 
 #4 Realice un programa que lea dos números y diga cuál es el mayor.
 
-num1= float(input("Ingrese el primer numero:"))
-num2= float(input("Ingrese el segundo numero:"))   
+num1= float(input("Introduzca el primer numero:"))
+num2= float(input("Introduzca el segundo numero:"))   
 
 if num1>num2:
-    print("El primer numero es mayor")
+    print("El primer numero es mayor.")
 else:
-    print("El segundo numero es mayor")
+    print("El segundo numero es mayor.")
 
 #5 Realice un programa que cambie pesos a dólares. Mejórelo, añadiendo el cambio de dólares a pesos y que sea el usuario quién decida qué tipo de cambio quiere, si de dólares a pesos o viceversa
 
-print("Por favor, elja que operacion desea realizar ")
+print("Por favor, elija que operacion desea realizar.")
 valordolar=480
 
 while True:
@@ -64,12 +64,12 @@ while True:
         break
         
     else:
-        print("Opción inválida. Por favor,seleccione una opcion valida.")
+        print("Opcion invalida. Por favor,seleccione una opcion valida.")
         continue
 
 #6 Realice un programa donde el usuario ingrese su edad. Si es mayor de 16 años, muestre un mensaje diciendo “puede votar”, sino “no vota”.
 
-edad= int(input("Ingrese su edad:"))
+edad= int(input("Introduzca su edad:"))
 
 if edad>16:
     print("Usted puede votar")
