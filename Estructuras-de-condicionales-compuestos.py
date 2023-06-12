@@ -7,11 +7,11 @@ ladob=int(input("Introduzca la medida del lado B:"))
 ladoc=int(input("Introduzca la medida del lado C:"))
 
 if ladoa == ladob == ladoc:
-    print("El triángulo es equilátero.")
+    print("El triangulo es equilatero.")
 elif ladoa != ladob != ladoc != ladoa:
-    print("El triángulo es escaleno.")
+    print("El triangulo es escaleno.")
 else:
-    print("El triángulo es isósceles.")
+    print("El triangulo es isosceles.")
 
 #2 Realice un programa que le permita al usuario simular el pago ingresando el importe y la forma de pago:
 
@@ -51,9 +51,9 @@ while True:
     
 #3 Realice un programa que lea tres números, muestre cuál es el mayor y determine si es par o impar.
 
-num1 = int(input("Introduzca el primer número:"))
-num2 = int(input("Introduzca el segundo número:"))
-num3 = int(input("Introduzca el tercer número:"))
+num1 = int(input("Introduzca el primer numero:"))
+num2 = int(input("Introduzca el segundo numero:"))
+num3 = int(input("Introduzca el tercer numero:"))
 num = any
 
 if num1 >= num2 and num1 >= num3:
@@ -72,52 +72,52 @@ else:
 
 #4 Confeccione un programa que pida un número del 1 al 7 y diga el día de #la semana correspondiente.
 
-num = int(input("Introduzca un número del 1 al 7:"))
+num = int(input("Introduzca un numero del 1 al 7:"))
 
 if num == 1:
-    print("El número", num, "es el día lunes.")
+    print("El numero", num, "es el dia lunes.")
 elif num == 2:
-    print("El número", num, "es el día martes.")
+    print("El numero", num, "es el dia martes.")
 elif num == 3:
-    print("El número", num, "es el día miercoles.")
+    print("El numero", num, "es el dia miercoles.")
 elif num == 4:
-    print("El número", num, "es el día jueves.")
+    print("El numero", num, "es el día jueves.")
 elif num == 5:
-    print("El número", num, "es el día viernes.")
+    print("El numero", num, "es el dia viernes.")
 elif num == 6:
-    print("El número", num, "es el dia sabado.")
+    print("El numero", num, "es el dia sabado.")
 elif num == 7:
-    print("El número", num, "es el dia domingo.")
+    print("El numero", num, "es el dia domingo.")
 else:
-    print("Número no válido. Introduzca un número del 1 al 7.")
+    print("Numero no valido. Introduzca un numero del 1 al 7.")
  
 #5 Realice un programa que pida un número del 1 al 12 y diga el nombre del mes correspondiente.
 
 num = int(input("Introduzca un número del 1 al 12: "))
 
 if num == 1:
-    print("El número", num, "corresponde a enero.")
+    print("El numero", num, "corresponde a enero.")
 elif num == 2:
-    print("El número", num, "corresponde a febrero.")
+    print("El numero", num, "corresponde a febrero.")
 elif num == 3:
-    print("El número", num, "corresponde a marzo.")
+    print("El numero", num, "corresponde a marzo.")
 elif num == 4:
-    print("El número", num, "corresponde a abril.")
+    print("EEl numero", num, "corresponde a abril.")
 elif num == 5:
-    print("El número", num, "corresponde a mayo.")
+    print("El numero", num, "corresponde a mayo.")
 elif num == 6:
-    print("El número", num, "corresponde a junio.")
+    print("El numero", num, "corresponde a junio.")
 elif num == 7:
-    print("El número", num, "corresponde a julio.")
+    print("EEl numero", num, "corresponde a julio.")
 elif num == 8:
-    print("El número", num, "corresponde a agosto.")
+    print("El numero", num, "corresponde a agosto.")
 elif num == 9:
-    print("El número", num, "corresponde a septiembre.")
+    print("El numero", num, "corresponde a septiembre.")
 elif num == 10:
-    print("El número", num, "corresponde a octubre.")
+    print("El numero", num, "corresponde a octubre.")
 elif num == 11:
-    print("El número", num, "corresponde a noviembre.")
+    print("El numero", num, "corresponde a noviembre.")
 elif num == 12:
-    print("El número", num, "corresponde a diciembre.")
+    print("EEl numero", num, "corresponde a diciembre.")
 else:
-    print("Número invalido. Por favor, introduzca un número del 1 al 12.")    
+    print("Numero invalido. Por favor, introduzca un numero del 1 al 12.")    
